@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form action="http://localhost:3000/empEntry" method="get">
+        <center>
+            <h3 class="text-primary">Employee Details</h3>
+        </center>
+        <table class="table table-bordered caption-top">
+            <caption>Employee Entry Form</caption>
+            <tbody>
+                <tr>
+                    <td>Enter EmpNo</td>
+                    <td><input type="text" name="eno"></td>
+                </tr>
+                <tr>
+                    <td>Enter Name</td>
+                    <td><input type="text" name="ename"></td>
+                </tr>
+                <tr>
+                    <td>Enter contact</td>
+                    <td><input type="text" name="econtact"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Save"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

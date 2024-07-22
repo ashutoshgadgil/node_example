@@ -9,6 +9,10 @@
   "author": "Ashutosh",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "express": "^4.19.2"
   }
 }

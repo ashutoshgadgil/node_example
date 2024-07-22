@@ -1,0 +1,14 @@
+{
+  "name": "node_example",
+  "version": "1.0.0",
+  "description": "Demo App for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashutosh",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}

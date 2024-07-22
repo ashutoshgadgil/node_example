@@ -1,2 +1,3 @@
 console.log("Welcome to Node JS");
-console.log("He
+console.log("Hello");
+console.log("Welcome");
